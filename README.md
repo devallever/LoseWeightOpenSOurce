@@ -14,6 +14,7 @@
 |:-:|:-:|:-:|:-:|
 |![](https://upload-images.jianshu.io/upload_images/2359130-415f038bfcc1feda.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/100)|![](https://upload-images.jianshu.io/upload_images/2359130-44e15c1528688b31.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/100)|![](https://upload-images.jianshu.io/upload_images/2359130-300a8a822416b32c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/100)|![](https://upload-images.jianshu.io/upload_images/2359130-e3b1d0660fcf7458.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/100)|
 
+> [如果无法显示图片，请移步到这里](https://www.jianshu.com/p/9dfcb78afadb)
 
 ## 下载
 
