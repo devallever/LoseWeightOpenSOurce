@@ -38,6 +38,15 @@
 ## 项目地址
 [https://github.com/devallever/LoseWeightOpenSOurce](https://github.com/devallever/LoseWeightOpenSOurce)
 
+
+
+## 项目架构
+
+ - MVC架构
+ - 单Activity + 多Fragment模式
+ - MaterialDesign规范
+
+
 ## 如何使用
 
 - 项目需要依赖AndroidDependencyLib中的一个或多个模块，请预先配置
@@ -45,7 +54,9 @@
 
 - 把AndroidDependencyLib项目和本项目放同一个目录下
 
-### 用到的开源项目
+
+
+## 用到的开源项目
 
  - fragmentationx：1Activity + 多个Fragment模式
  - eventbus
@@ -55,3 +66,5 @@
  - RxJava/RxAndroid
  - Retrofit/Okhttp
  - Glide
+ - ButterKnife
+ 
