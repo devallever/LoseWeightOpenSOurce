@@ -30,6 +30,4 @@
 [https://shouji.baidu.com/software/26803005.html](https://shouji.baidu.com/software/26803005.html)
 
 ## 项目地址
-[[https://github.com/devallever/LoseWeightOpenSOurce](https://github.com/devallever/LoseWeightOpenSOurce)
-]([https://github.com/devallever/LoseWeightOpenSOurce](https://github.com/devallever/LoseWeightOpenSOurce)
-)
+[https://github.com/devallever/LoseWeightOpenSOurce](https://github.com/devallever/LoseWeightOpenSOurce)
