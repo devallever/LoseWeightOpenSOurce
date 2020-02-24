@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<include
+		android:id="@+id/id_action_ready_toolbar"
+		layout="@layout/toolbar" />
+
+	<LinearLayout
+		android:id="@+id/id_fg_action_ready_ll_desc_container"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/id_action_ready_toolbar"
+		android:orientation="vertical"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="30dp"
+		android:gravity="center">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/ready_start"
+			android:textSize="30sp" />
+
+		<TextView
+			android:id="@+id/id_fg_action_ready_tv_desc"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="蹲伏"
+			android:textSize="20sp" />
+	</LinearLayout>
+
+	<ImageView
+		android:id="@+id/id_fg_action_ready_iv_guide"
+		android:layout_width="match_parent"
+		android:layout_height="200dp"
+		android:layout_below="@id/id_fg_action_ready_ll_desc_container"
+		android:src="@drawable/lunge_1" />
+
+	<TextView
+		android:id="@+id/id_fg_action_ready_tv_skip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true"
+		android:layout_margin="20dp"
+		android:textColor="@color/colorPrimary"
+		android:text="@string/skip" />
+
+	<RelativeLayout
+		android:layout_width="120dp"
+		android:layout_height="120dp"
+		android:layout_above="@+id/id_fg_action_ready_tv_skip"
+		android:layout_centerHorizontal="true">
+
+		<com.dinuscxj.progressbar.CircleProgressBar
+			android:id="@+id/id_fg_action_ready_progress_bar"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			app:style="solid_line"
+			app:progress_stroke_width="3dp"
+			app:progress_background_color="@color/gray_d3"
+			app:progress_start_color="@color/colorPrimary"
+			app:progress_end_color="@color/colorPrimary"
+			app:draw_progress_text="false" />
+
+		<TextView
+			android:id="@+id/id_fg_action_ready_tv_time"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="8'"
+			android:textStyle="bold"
+			android:textColor="@color/colorPrimary"
+			android:textSize="40sp"
+			android:layout_centerInParent="true" />
+
+
+	</RelativeLayout>
+
+	<com.google.android.material.floatingactionbutton.FloatingActionButton
+		android:id="@+id/id_fg_action_ready_btn_start_pause"
+		android:layout_width="64dp"
+		android:layout_height="64dp"
+		android:layout_margin="10dp"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true"
+		android:src="@drawable/exo_controls_pause" />
+
+</RelativeLayout>

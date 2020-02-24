@@ -1,0 +1,177 @@
+<resources>
+	<string name="app_name">减肥健身操</string>
+
+	<string name="navigation_drawer_open">打开侧滑菜单</string>
+	<string name="navigation_drawer_close">关闭侧滑菜单</string>
+
+	<string name="action_settings">设置</string>
+
+	<string name="app_bar_title">减肥健身操</string>
+	<string name="menu_training_plans">训练计划</string>
+	<string name="menu_report">报告</string>
+	<string name="menu_reminder">提醒</string>
+	<string name="menu_setting">设置</string>
+	<string name="menu_restart_progress">重置进度</string>
+	<string name="open">打开</string>
+	<string name="close">关闭</string>
+	<string name="tab_tourines">每日训练</string>
+	<string name="tab_30days">训练计划</string>
+	<string name="tab_reports">历史记录</string>
+	<string name="hello_blank_fragment">Hello blank fragment</string>
+	<string name="left_time">剩余时间</string>
+	<string name="percent">0.0%</string>
+	<string name="keep_data_in_cloud">保存数据到云账户</string>
+	<string name="never_backed_up">从未同步</string>
+	<string name="workouts">运动</string>
+	<string name="kcal">卡路里</string>
+	<string name="duration">时长</string>
+	<string name="history">历史</string>
+	<string name="records">记录</string>
+	<string name="current">当前体重：</string>
+	<string name="heaviest">最重体重：</string>
+	<string name="lightest">最轻体重：</string>
+	<string name="bmi">BMI(kg/m^2)</string>
+	<string name="edit">编辑</string>
+	<string name="height">身高</string>
+	<string name="weight">体重</string>
+
+	<string name="action_name">蹲伏</string>
+	<string name="action_desc_1">双脚与肩同宽, 双肩向前伸直，然后身体下压，直至与大腿与地面平行</string>
+	<string name="action_desc_2">膝盖方向应与脚尖方向保持一致</string>
+	<string name="video">视频</string>
+	<string name="next_action">下一个</string>
+	<string name="next_desc">跪姿屈膝抬腿-左</string>
+	<string name="skip">跳过</string>
+	<string name="today">今日</string>
+	<string name="finish_1">第1天 完成</string>
+	<string name="calorie"><u>卡路里</u></string>
+	<string name="time">时间</string>
+	<string name="click_here"><u>点击此处</u></string>
+	<string name="train">锻炼</string>
+	<string name="action_finish_duration">时长</string>
+	<string name="remind">提醒</string>
+	<string name="save">保存</string>
+	<string name="share">分享</string>
+	<string name="action_finish_weight">体重</string>
+	<string name="unit_kg">kg</string>
+	<string name="unit_lb">lb</string>
+	<string name="action_finish_bmi">BMI(kg/m^2)</string>
+	<string name="hide">隐藏</string>
+	<string name="click_input_height">点击这里输入您的身高数据</string>
+	<string name="sync_google_fit">同步到Google健身</string>
+	<string name="i_feel">我感觉</string>
+	<string name="simple">简单</string>
+	<string name="tired">筋疲力尽</string>
+	<string name="feedback">反馈</string>
+	<string name="ready">准备</string>
+	<string name="let_us_train_every_day">让我们每天坚持锻炼吧!</string>
+	<string name="finish">完成</string>
+	<string name="exit">退出</string>
+	<string name="delay">延时</string>
+	<string name="dialog_exit_tips">挥洒的汗水都是燃烧的脂肪</string>
+	<string name="comeback">30分钟后回来</string>
+	<string name="start">开始</string>
+
+	<!-- BIMVIEW -->
+	<string name="SEVERELY_UNDERWEIGHT"> 严重偏瘦</string>
+	<string name="UNDERWEIGHT">偏瘦</string>
+	<string name="NORMAL">正常</string>
+	<string name="OVERWEIGHT">超重</string>
+	<string name="OBESE_CLASS_1">中度超重</string>
+	<string name="OBESE_CLASS_2">严重超重</string>
+	<string name="OBESE_CLASS_3">极度超重</string>
+
+
+	<string name="cancel">取消</string>
+	<string name="reminder">提醒</string>
+	<string name="repeat">重复</string>
+	<string name="settings">设置</string>
+	<string name="account">账号</string>
+	<string name="sound_options">声音选项</string>
+	<string name="workout">运动</string>
+	<string name="test_voice">语音测试</string>
+	<string name="voice_options_tts">语音选项(TTS)</string>
+	<string name="select_tts_engine">选择TTS引擎</string>
+	<string name="download_tts_engine">下载TTS引擎</string>
+	<string name="download_more_tts_language_data">下载更多的TTS语言数据</string>
+	<string name="device_tts_setting">设备的TTS设置</string>
+	<string name="voice_dialog_title">你能听到语音测试吗？</string>
+	<string name="voice_dialog_can">能</string>
+	<string name="voice_dialog_cant">不能</string>
+	<string name="tts_tset">你能听到语音测试吗</string>
+	<string name="tts_tips">你正在使用的TTS引擎已停止工作，请仔细检查或更换TTS引擎或下载TTS语音</string>
+	<string name="down_tts">下载TTS引擎</string>
+	<string name="set_tts">设置TTS引擎</string>
+	<string name="sure">确定</string>
+
+	<string name="show">显示</string>
+	<string name="rest">您的身体和肌肉需要休息一下</string>
+	<string name="end">结束</string>
+	<string name="gender">性别</string>
+	<string name="male">男性</string>
+	<string name="female">女性</string>
+	<string name="birth_year">出生年份</string>
+	<string name="previous">上一个</string>
+	<string name="unit_cm">cm</string>
+	<string name="unit_in">in</string>
+	<string name="general_settings">一般设置</string>
+	<string name="health_data">健康数据</string>
+	<string name="settings_reminder">提醒我每天锻炼</string>
+	<string name="delete_all_data">删除所有数据</string>
+	<string name="support_us">支持我们</string>
+	<string name="share_with_friends">与朋友分享</string>
+	<string name="version">版本</string>
+	<string name="mute">静音</string>
+	<string name="coach_tips">训练提示</string>
+	<string name="voice_guide">语音</string>
+	<string name="ok">确定</string>
+
+	<string name="next">下一个</string>
+	<string name="day">天</string>
+	<string name="day_left">剩余</string>
+	<string name="morning_train">晨间拉伸</string>
+	<string name="ready_start">预备开始</string>
+
+	<string name="please_input_weight_height">请输入体重和身高</string>
+	<string name="morning_stretch">晨间拉伸</string>
+	<string name="sleep_stretch">晚间拉伸</string>
+	<string name="routine_exercise">运动</string>
+	<string name="routine_duration">时长</string>
+	<string name="routine_kcal">千卡</string>
+	<string name="birthday">出生日期</string>
+	<string name="weight_unit">体重单位</string>
+	<string name="height_unit">身高单位</string>
+	<string name="unit_setting">公制-英制单位</string>
+
+	<string name="chinese">简体中文</string>
+	<string name="english">English</string>
+	<string name="language_select">语言选择</string>
+	<string name="share_to">分享到</string>
+	<string name="share_text_1">我正在用30天内减肥 健身，锻炼效果很棒。</string>
+	<string name="share_text_2">你可以选择不同难度的全身，腿部，臀部以及腹部运动，无需任何器材。快来挑战吧!</string>
+	<string name="share_text_3">点击下载:</string>
+	<string name="share_text_4">https:</string>
+
+	<string name="monday">星期一</string>
+	<string name="tuesday">星期二</string>
+	<string name="wednesday">星期三</string>
+	<string name="thursday">星期四</string>
+	<string name="friday">星期五</string>
+	<string name="saturday">星期六</string>
+	<string name="sunday">星期日</string>
+
+	<string name="reset_schedule">重置进度?</string>
+	<string name="time_to_action">运动时间到了.</string>
+
+	<string name="height_not_allow">身高不合法，请重新输入</string>
+	<string name="weight_not_allow">体重不合法，请重新输入</string>
+	<string name="last_sync">上次同步</string>
+	<string name="already_exit_google_fit">已退出GoogleFit</string>
+	<string name="sync">同步</string>
+	<string name="sync_complete">同步完成</string>
+
+	<string name="feed_back_subject">您的建议</string>
+	<string name="feed_back_content">我们很希望能得到您的建议：</string>
+	<string name="select_mail_app">请选择邮件类应用</string>
+	<string name="has_not_google_service">没安装谷歌服务</string>
+</resources>

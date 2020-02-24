@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<include
+		android:id="@+id/id_fg_action_toolbar"
+		layout="@layout/toolbar" />
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/id_fg_action_toolbar">
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<RelativeLayout
+				android:id="@+id/id_fg_action_rl_guide_container"
+				android:layout_width="match_parent"
+				android:layout_height="250dp">
+
+				<ImageView
+					android:id="@+id/id_fg_action_iv_guide"
+					android:layout_width="match_parent"
+					android:layout_height="200dp"
+					android:layout_alignParentBottom="true"
+					android:src="@drawable/lunge_1" />
+
+				<TextView
+					android:id="@+id/id_fg_action_tv_process"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="1/7"
+					android:layout_margin="20dp"
+					android:textColor="@color/colorPrimary"
+					android:textSize="20sp" />
+
+				<ImageView
+					android:id="@+id/id_fg_action_iv_sound"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/td_ic_sound"
+					android:layout_alignParentRight="true"
+					android:layout_margin="10dp"
+					android:iconTint="@color/theme_color" />
+
+				<ImageView
+					android:id="@+id/id_fg_action_iv_video"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/id_fg_action_iv_sound"
+					android:src="@drawable/td_ic_video_2"
+					android:layout_alignParentRight="true"
+					android:layout_margin="10dp" />
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:id="@+id/id_fg_action_rl_time_container"
+				android:layout_width="match_parent"
+				android:layout_height="40dp"
+				android:background="@color/teal_200"
+				android:layout_below="@id/id_fg_action_rl_guide_container">
+
+				<ProgressBar
+					android:id="@+id/id_fg_action_progress_time"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentTop="true"
+					style="@style/ActionProgressStyle" />
+
+				<TextView
+					android:id="@+id/id_fg_action_tv_total"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="/20"
+					android:textSize="20sp"
+					android:textColor="@color/white"
+					android:layout_centerInParent="true" />
+
+				<TextView
+					android:id="@+id/id_fg_action_tv_current_time"
+					style="@style/whiteTextStyle"
+					android:layout_toLeftOf="@id/id_fg_action_tv_total"
+					android:layout_centerVertical="true"
+					android:text="0"
+					android:textSize="20sp" />
+
+			</RelativeLayout>
+
+			<FrameLayout
+				android:id="@+id/bannerContainer"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/id_fg_action_rl_time_container" />
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/bannerContainer"
+				android:padding="20dp"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/id_fg_action_tv_action_name"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="蹲伏"
+					android:textColor="@color/black"
+					android:textSize="25sp" />
+
+				<TextView
+					android:id="@+id/id_fg_action_tv_action_desc"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="20dp"
+					android:text="双脚"
+					android:textSize="18sp" />
+			</LinearLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+
+
+	<com.google.android.material.floatingactionbutton.FloatingActionButton
+		android:id="@+id/id_fg_action_btn_pause"
+		android:layout_width="64dp"
+		android:layout_height="64dp"
+		android:layout_margin="10dp"
+		android:src="@drawable/exo_controls_pause"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>

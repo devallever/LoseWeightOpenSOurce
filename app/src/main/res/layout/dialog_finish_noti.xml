@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:id="@+id/id_dialog_finish_reminder_ll_top"
+		android:layout_width="match_parent"
+		android:layout_height="80dp"
+		android:background="@color/green_16"
+		android:orientation="horizontal"
+		android:padding="15dp">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_reminder" />
+
+		<TextView
+			style="@style/whiteTextStyle"
+			android:layout_gravity="center"
+			android:text="@string/let_us_train_every_day"
+			android:textStyle="bold" />
+
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/id_dialog_finish_reminder_tv_finish"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/finish"
+		android:textColor="@color/blue_500"
+		android:padding="20dp"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true" />
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="0.5dp"
+		android:background="@color/gray"
+		android:layout_above="@id/id_dialog_finish_reminder_tv_finish" />
+
+	<androidx.recyclerview.widget.RecyclerView
+		android:layout_below="@id/id_dialog_finish_reminder_ll_top"
+		android:id="@+id/id_dialog_finish_reminder_rv"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_above="@id/id_dialog_finish_reminder_tv_finish"></androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:padding="20dp">
+
+	<TextView
+		android:id="@+id/id_dialog_year_select_tv_gender"
+		style="@style/blackTextStyle"
+		android:text="@string/gender"
+		android:textSize="25sp" />
+
+	<RadioGroup
+		android:id="@+id/id_dialog_year_select_rg_gender_container"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:layout_below="@id/id_dialog_year_select_tv_gender"
+		android:orientation="horizontal">
+
+		<RadioButton
+			android:id="@+id/id_dialog_year_select_rb_male"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			style="@style/dialog_year_select_rb_gender"
+			android:text="@string/male" />
+
+		<RadioButton
+			android:id="@+id/id_dialog_year_select_rb_female"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			style="@style/dialog_year_select_rb_gender"
+			android:text="@string/female" />
+	</RadioGroup>
+
+
+	<TextView
+		android:id="@+id/id_dialog_year_select_tv_birth_year"
+		style="@style/blackTextStyle"
+		android:layout_below="@id/id_dialog_year_select_rg_gender_container"
+		android:layout_marginTop="20dp"
+		android:textSize="25sp"
+		android:text="@string/birth_year" />
+
+	<LinearLayout
+		android:id="@+id/id_dialog_year_select_ll_wheel_view_container"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:layout_below="@id/id_dialog_year_select_tv_birth_year">
+
+		<com.allever.lose.weight.ui.view.widget.WheelView
+			android:id="@+id/id_dialog_year_select_wheel_view_year_select"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/id_dialog_year_select_ll_wheel_view_container"
+		android:layout_marginTop="30dp">
+
+		<TextView
+			android:id="@+id/id_dialog_year_select_tv_previous"
+			style="@style/dialog_year_select_tv_option_style"
+			android:text="@string/previous" />
+
+		<TextView
+			android:id="@+id/id_dialog_year_select_tv_save"
+			style="@style/dialog_year_select_tv_option_style"
+			android:text="@string/save"
+			android:layout_alignParentRight="true" />
+
+		<TextView
+			android:id="@+id/id_dialog_year_select_tv_cancel"
+			style="@style/dialog_year_select_tv_option_style"
+			android:layout_toLeftOf="@id/id_dialog_year_select_tv_save"
+			android:text="@string/cancel" />
+
+
+	</RelativeLayout>
+
+
+</RelativeLayout>

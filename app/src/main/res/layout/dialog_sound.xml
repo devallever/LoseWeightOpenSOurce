@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@android:color/transparent"
+	android:gravity="center"
+	android:paddingLeft="15dp"
+	android:orientation="vertical">
+
+	<TextView
+		style="@style/blackTextStyle"
+		android:layout_width="match_parent"
+		android:text="@string/sound_options"
+		android:textSize="25sp"
+		android:paddingLeft="10dp"
+		android:layout_marginTop="20dp" />
+
+	<LinearLayout
+		android:padding="10dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_weight="1"
+			android:drawablePadding="10dp"
+			android:gravity="center_vertical"
+			android:drawableLeft="@drawable/td_ic_sound_gray"
+			android:text="@string/mute"
+			android:layout_width="0dp"
+			android:layout_height="match_parent" />
+
+		<androidx.appcompat.widget.SwitchCompat
+			android:id="@+id/id_dialog_sound_switch_mute"
+			android:layout_marginRight="20dp"
+			android:layout_gravity="right"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:padding="10dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_weight="1"
+			android:drawablePadding="10dp"
+			android:gravity="center_vertical"
+			android:drawableLeft="@drawable/td_ic_voice_guide_gray"
+			android:text="@string/voice_guide"
+			android:layout_width="0dp"
+			android:layout_height="match_parent" />
+
+		<androidx.appcompat.widget.SwitchCompat
+			android:id="@+id/id_dialog_sound_switch_voice"
+			android:checked="true"
+			android:layout_marginRight="20dp"
+			android:layout_gravity="right"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:padding="10dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_weight="1"
+			android:drawablePadding="10dp"
+			android:gravity="center_vertical"
+			android:drawableLeft="@drawable/td_ic_coach_tip_gray"
+			android:text="@string/coach_tips"
+			android:layout_width="0dp"
+			android:layout_height="match_parent" />
+
+		<androidx.appcompat.widget.SwitchCompat
+			android:id="@+id/id_dialog_sound_switch_train_voice"
+			android:checked="true"
+			android:layout_marginRight="20dp"
+			android:layout_gravity="right"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right"
+		android:layout_marginBottom="10dp">
+
+		<TextView
+			android:id="@+id/id_dialog_sound_tv_ok"
+			style="@style/greenTextStyle"
+			android:text="@string/ok"
+			android:padding="10dp"
+			android:textSize="18sp"
+			android:gravity="center"
+			android:layout_marginRight="30dp"
+			android:layout_marginTop="10dp"
+			android:layout_alignParentRight="true" />
+
+		<TextView
+			android:id="@+id/id_dialog_sound_tv_cancel"
+			style="@style/greenTextStyle"
+			android:gravity="center"
+			android:text="@string/cancel"
+			android:padding="10dp"
+			android:textSize="18sp"
+			android:layout_marginTop="10dp"
+			android:layout_toLeftOf="@id/id_dialog_sound_tv_ok" />
+	</RelativeLayout>
+
+</LinearLayout>

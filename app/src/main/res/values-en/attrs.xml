@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="BMIView">
+		<attr name="verySeverelyUnderweightColor" format="color" />
+		<attr name="severelyUnderweightColor" format="color" />
+		<attr name="underweightColor" format="color" />
+		<attr name="normalColor" format="color" />
+		<attr name="overweightColor" format="color" />
+		<attr name="obeseClass1Color" format="color" />
+		<attr name="obeseClass2Color" format="color" />
+		<attr name="obeseClass3Color" format="color" />
+	</declare-styleable>
+	<string-array name="month_value">
+		<item>1月</item>
+		<item>1月</item>
+		<item>2月</item>
+		<item>3月</item>
+		<item>4月</item>
+		<item>5月</item>
+		<item>6月</item>
+		<item>7月</item>
+		<item>8月</item>
+		<item>9月</item>
+		<item>10月</item>
+		<item>11月</item>
+		<item>12月</item>
+	</string-array>
+
+	<string-array name="day_title">
+		<item>Day 1 </item>
+		<item>Day 2 </item>
+		<item>Day 3 </item>
+		<item>Day 4 </item>
+		<item>Day 5 </item>
+		<item>Day 6 </item>
+		<item>Day 7 </item>
+		<item>Day 8 </item>
+		<item>Day 9 </item>
+		<item>Day 10 </item>
+		<item>Day 11 </item>
+		<item>Day 12 </item>
+		<item>Day 13 </item>
+		<item>Day 14 </item>
+		<item>Day 15 </item>
+		<item>Day 16 </item>
+		<item>Day 17 </item>
+		<item>Day 18 </item>
+		<item>Day 19 </item>
+		<item>Day 20 </item>
+		<item>Day 21 </item>
+		<item>Day 22 </item>
+		<item>Day 23 </item>
+		<item>Day 24 </item>
+		<item>Day 25 </item>
+		<item>Day 26 </item>
+		<item>Day 27 </item>
+		<item>Day 28 </item>
+		<item>Day 29 </item>
+		<item>Day 30 </item>
+	</string-array>
+
+	<array name="week_value">
+		<item>Sunday</item>
+		<item>Monday</item>
+		<item>Tuesday</item>
+		<item>Wednesday</item>
+		<item>Thursday</item>
+		<item>Friday</item>
+		<item>Saturday</item>
+	</array>
+</resources>

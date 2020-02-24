@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="BMIView">
+		<attr name="verySeverelyUnderweightColor" format="color" />
+		<attr name="severelyUnderweightColor" format="color" />
+		<attr name="underweightColor" format="color" />
+		<attr name="normalColor" format="color" />
+		<attr name="overweightColor" format="color" />
+		<attr name="obeseClass1Color" format="color" />
+		<attr name="obeseClass2Color" format="color" />
+		<attr name="obeseClass3Color" format="color" />
+	</declare-styleable>
+	<string-array name="month_value">
+		<item>1月</item>
+		<item>1月</item>
+		<item>2月</item>
+		<item>3月</item>
+		<item>4月</item>
+		<item>5月</item>
+		<item>6月</item>
+		<item>7月</item>
+		<item>8月</item>
+		<item>9月</item>
+		<item>10月</item>
+		<item>11月</item>
+		<item>12月</item>
+	</string-array>
+
+	<string-array name="day_title">
+		<item>第 1 天</item>
+		<item>第 2 天</item>
+		<item>第 3 天</item>
+		<item>第 4 天</item>
+		<item>第 5 天</item>
+		<item>第 6 天</item>
+		<item>第 7 天</item>
+		<item>第 8 天</item>
+		<item>第 9 天</item>
+		<item>第 10 天</item>
+		<item>第 11 天</item>
+		<item>第 12 天</item>
+		<item>第 13 天</item>
+		<item>第 14 天</item>
+		<item>第 15 天</item>
+		<item>第 16 天</item>
+		<item>第 17 天</item>
+		<item>第 18 天</item>
+		<item>第 19 天</item>
+		<item>第 20 天</item>
+		<item>第 21 天</item>
+		<item>第 22 天</item>
+		<item>第 23 天</item>
+		<item>第 24 天</item>
+		<item>第 25 天</item>
+		<item>第 26 天</item>
+		<item>第 27 天</item>
+		<item>第 28 天</item>
+		<item>第 29 天</item>
+		<item>第 30 天</item>
+	</string-array>
+
+	<array name="week_value">
+		<item>星期日</item>
+		<item>星期一</item>
+		<item>星期二</item>
+		<item>星期三</item>
+		<item>星期四</item>
+		<item>星期五</item>
+		<item>星期六</item>
+	</array>
+</resources>

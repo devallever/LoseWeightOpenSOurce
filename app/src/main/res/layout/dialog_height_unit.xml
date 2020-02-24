@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<RadioGroup
+		android:id="@+id/id_dialog_height_unit_rg_weight_container"
+		style="@style/dialog_general_rg">
+
+		<RadioButton
+			android:id="@+id/id_dialog_height_unit_rb_cm"
+			style="@style/dialog_general_rb"
+			android:text="@string/unit_cm" />
+
+		<RadioButton
+			android:id="@+id/id_dialog_height_unit_rb_in"
+			style="@style/dialog_general_rb"
+			android:text="@string/unit_in" />
+
+	</RadioGroup>
+
+</FrameLayout>

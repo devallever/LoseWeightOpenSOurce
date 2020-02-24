@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<FrameLayout
+		android:id="@+id/id_fg_action_next_fl_progress_container"
+		android:layout_width="match_parent"
+		android:layout_height="5dp"
+		android:background="@color/gray_d3">
+
+		<ProgressBar
+			android:id="@+id/id_fg_action_next_h_progress"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:max="7"
+			android:progress="1"
+			style="@style/ActionProgressStyle" />
+	</FrameLayout>
+
+	<RelativeLayout
+		android:id="@+id/id_fg_action_next_rl_desc_container"
+		android:layout_width="match_parent"
+		android:layout_height="80dp"
+		android:layout_alignParentBottom="true">
+
+		<TextView
+			android:id="@+id/id_fg_action_next_tv_next"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/next_action"
+			android:layout_marginTop="20dp"
+			android:layout_marginLeft="10dp"
+			android:textColor="@color/gray" />
+
+		<TextView
+			android:id="@+id/id_fg_action_next_tv_progress"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="2/7"
+			android:layout_below="@id/id_fg_action_next_tv_next"
+			android:layout_marginTop="6dp"
+			android:layout_marginLeft="10dp"
+			android:textColor="@color/black" />
+
+		<TextView
+			android:id="@+id/id_fg_action_next_tv_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/next_desc"
+			android:layout_below="@id/id_fg_action_next_tv_next"
+			android:layout_toRightOf="@id/id_fg_action_next_tv_progress"
+			android:layout_marginTop="6dp"
+			android:layout_marginLeft="10dp"
+			android:textColor="@color/black" />
+
+		<ImageView
+			android:id="@+id/id_fg_action_next_iv_guide"
+			android:layout_width="100dp"
+			android:layout_height="match_parent"
+			android:layout_alignParentRight="true"
+			android:src="@drawable/lunge_1"
+			android:padding="10dp" />
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@id/id_fg_action_next_fl_progress_container"
+		android:layout_above="@id/id_fg_action_next_rl_desc_container"
+		android:background="@drawable/bg_exercise_rest">
+
+		<RelativeLayout
+			android:id="@+id/id_fg_action_next_rl_counter_container"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:layout_centerInParent="true">
+
+			<com.dinuscxj.progressbar.CircleProgressBar
+				android:id="@+id/id_fg_action_next_progress_bar"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_alignBottom="@+id/id_fg_action_next_tv_time"
+				android:layout_marginBottom="-23dp"
+				app:draw_progress_text="false"
+				app:progress_background_color="@color/gray_d3"
+				app:progress_end_color="@color/colorPrimary"
+				app:progress_start_color="@color/colorPrimary"
+				app:progress_stroke_width="3dp"
+				app:style="solid_line" />
+
+			<TextView
+				android:id="@+id/id_fg_action_next_tv_time"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="30'"
+				android:textStyle="bold"
+				android:textColor="@color/colorPrimary"
+				android:textSize="40sp"
+				android:layout_centerInParent="true" />
+		</RelativeLayout>
+
+		<TextView
+			android:id="@+id/id_fg_action_next_tv_skip"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:textColor="@color/green_16"
+			android:textSize="18sp"
+			android:text="@string/skip"
+			android:layout_centerHorizontal="true"
+			android:layout_below="@id/id_fg_action_next_rl_counter_container" />
+
+	</RelativeLayout>
+
+</RelativeLayout>

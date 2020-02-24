@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<RadioGroup
+		android:id="@+id/id_dialog_gender_rg_gender_container"
+		style="@style/dialog_general_rg">
+
+		<RadioButton
+			android:id="@+id/id_dialog_gender_rb_male"
+			style="@style/dialog_general_rb"
+			android:text="@string/male" />
+
+		<RadioButton
+			android:id="@+id/id_dialog_gender_rb_female"
+			style="@style/dialog_general_rb"
+			android:text="@string/female" />
+
+	</RadioGroup>
+
+</FrameLayout>

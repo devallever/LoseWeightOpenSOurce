@@ -1,0 +1,12 @@
+include ':app'
+
+include ':common'
+project(':common').projectDir = new File(settingsDir, '../AndroidDependencyLib/common')
+include ':umeng'
+project(':umeng').projectDir = new File(settingsDir, '../AndroidDependencyLib/umeng')
+include ':recommend'
+project(':recommend').projectDir = new File(settingsDir, '../AndroidDependencyLib/recommend')
+include ':httpsglide'
+project(':httpsglide').projectDir = new File(settingsDir, '../AndroidDependencyLib/httpsglide')
+
+

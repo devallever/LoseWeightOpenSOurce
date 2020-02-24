@@ -1,0 +1,177 @@
+<resources>
+	<string name="app_name">WeightLoseAerobics</string>
+
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+
+	<string name="action_settings">Settings</string>
+
+	<string name="app_bar_title">WeightLoseAerobics</string>
+	<string name="menu_training_plans">Training plans</string>
+	<string name="menu_report">Report</string>
+	<string name="menu_reminder">Reminder</string>
+	<string name="menu_setting">Setting</string>
+	<string name="menu_restart_progress">Restart progress</string>
+	<string name="open">open</string>
+	<string name="close">close</string>
+	<string name="tab_tourines">Routine</string>
+	<string name="tab_30days">Plan</string>
+	<string name="tab_reports">History</string>
+	<string name="hello_blank_fragment">Hello blank fragment</string>
+	<string name="left_time">29 Days Left</string>
+	<string name="percent">0.0%</string>
+	<string name="keep_data_in_cloud">Keep data in cloud</string>
+	<string name="never_backed_up">Never backed up</string>
+	<string name="workouts">Workouts</string>
+	<string name="kcal">KCAL</string>
+	<string name="duration">DURATION</string>
+	<string name="history">History</string>
+	<string name="records">Records</string>
+	<string name="current">Current:</string>
+	<string name="heaviest">Heaviest:</string>
+	<string name="lightest">Lightest:</string>
+	<string name="bmi">BMI(kg/m^2)</string>
+	<string name="edit">EDIT</string>
+	<string name="height">Height</string>
+	<string name="weight">Weight</string>
+
+	<string name="action_name">plank</string>
+	<string name="action_desc_1">The feet are shoulder-width apart, the shoulders are straight forward, and then the body is pressed down until it is parallel to the thigh and the ground.</string>
+	<string name="action_desc_2">The direction of the knee should be consistent with the direction of the toe</string>
+	<string name="video">video</string>
+	<string name="next_action">Next</string>
+	<string name="next_desc">Knees knees-Left</string>
+	<string name="skip">Skip</string>
+	<string name="today">Today</string>
+	<string name="finish_1">Day 1 Complete</string>
+	<string name="calorie"><u>Calories</u></string>
+	<string name="time">Time</string>
+	<string name="click_here"><u>click here</u></string>
+	<string name="train">workout</string>
+	<string name="action_finish_duration">Duration</string>
+	<string name="remind">Remind</string>
+	<string name="save">Save</string>
+	<string name="share">Share</string>
+	<string name="action_finish_weight">Weight</string>
+	<string name="unit_kg">kg</string>
+	<string name="unit_lb">lb</string>
+	<string name="action_finish_bmi">BMI(kg/m^2)</string>
+	<string name="hide">Hide</string>
+	<string name="click_input_height">Click here to enter your height data</string>
+	<string name="sync_google_fit">Sync to Google Fit</string>
+	<string name="i_feel">I feel</string>
+	<string name="simple">Simple</string>
+	<string name="tired">Exhausted</string>
+	<string name="feedback">Feedback</string>
+	<string name="ready">Ready</string>
+	<string name="let_us_train_every_day">Let\'s keep exercising every day!</string>
+	<string name="finish">Complete</string>
+	<string name="exit">Quit</string>
+	<string name="delay">Delay</string>
+	<string name="dialog_exit_tips">Sweat is a burning fat</string>
+	<string name="comeback">Come back after 30 minutes</string>
+	<string name="start">Start</string>
+
+	<!-- BIMVIEW -->
+	<string name="SEVERELY_UNDERWEIGHT"> Seriously thin</string>
+	<string name="UNDERWEIGHT">Thin</string>
+	<string name="NORMAL">Normal weight</string>
+	<string name="OVERWEIGHT">Overweight</string>
+	<string name="OBESE_CLASS_1">Moderate overweight</string>
+	<string name="OBESE_CLASS_2">Seriously overweight</string>
+	<string name="OBESE_CLASS_3">Extremely overweight</string>
+
+
+	<string name="cancel">CANCEL</string>
+	<string name="reminder">Reminder</string>
+	<string name="repeat">Repeat</string>
+	<string name="settings">Settings</string>
+	<string name="account">ACCOUNT</string>
+	<string name="sound_options">Sound options</string>
+	<string name="workout">WORKOUT</string>
+	<string name="test_voice">Test Voice</string>
+	<string name="voice_options_tts">Voice Options (TTS)</string>
+	<string name="select_tts_engine">Select TTS Engine</string>
+	<string name="download_tts_engine">Download TTS Engine</string>
+	<string name="download_more_tts_language_data">Download more TTS language data</string>
+	<string name="device_tts_setting">Device TTS Setting</string>
+	<string name="voice_dialog_title">Can you hear the voice test?</string>
+	<string name="voice_dialog_can">Able</string>
+	<string name="voice_dialog_cant">Disable</string>
+	<string name="tts_tset">Can you hear the voice test?</string>
+	<string name="tts_tips">The TTS engine you are using has stopped working，Please check or replace the TTS engine or download TTS voice</string>
+	<string name="down_tts">Download TTS Engine</string>
+	<string name="set_tts">Set up the TTS engine</string>
+	<string name="sure">OK</string>
+
+	<string name="show">display</string>
+	<string name="rest">Your body and muscle need a break</string>
+	<string name="end">finish</string>
+	<string name="gender">gender</string>
+	<string name="male">Male</string>
+	<string name="female">Female</string>
+	<string name="birth_year">year of birth</string>
+	<string name="previous">Previous</string>
+	<string name="unit_cm">cm</string>
+	<string name="unit_in">in</string>
+	<string name="general_settings">GENERAL SETTINGS</string>
+	<string name="health_data">Health Data</string>
+	<string name="settings_reminder">Remind me to workout every day</string>
+	<string name="delete_all_data">Delete all data</string>
+	<string name="support_us">SUPPORT US</string>
+	<string name="share_with_friends">Share with friends</string>
+	<string name="version">Version 1.0.0</string>
+	<string name="mute">Mute</string>
+	<string name="coach_tips">Coach tips</string>
+	<string name="voice_guide">Voice guide</string>
+	<string name="ok">Ok</string>
+
+	<string name="next">Next</string>
+	<string name="day">Day</string>
+	<string name="day_left">Days left</string>
+	<string name="morning_train">Morning stretching</string>
+	<string name="ready_start">Ready to go</string>
+
+	<string name="please_input_weight_height">Please enter body weight and height</string>
+	<string name="morning_stretch">Morning stretching</string>
+	<string name="sleep_stretch">Evening stretch</string>
+	<string name="routine_exercise">workout</string>
+	<string name="routine_duration">Duration</string>
+	<string name="routine_kcal">Kcal</string>
+	<string name="birthday">date of birth</string>
+	<string name="weight_unit">Weight unit</string>
+	<string name="height_unit">Height unit</string>
+	<string name="unit_setting">Metric-Imperial units</string>
+
+	<string name="chinese">Simplified Chinese</string>
+	<string name="english">English</string>
+	<string name="language_select">language selection</string>
+	<string name="share_to">share to</string>
+	<string name="share_text_1">I am losing weight within 30 days Fitness，Great workout。</string>
+	<string name="share_text_2">You can choose the body of different difficulty，Leg，Hip and abdominal movements，No equipment needed。Come and challenge it!</string>
+	<string name="share_text_3">click to download:</string>
+	<string name="share_text_4">https:</string>
+
+	<string name="monday">Monday</string>
+	<string name="tuesday">Tuesday</string>
+	<string name="wednesday">Wednesday</string>
+	<string name="thursday">Thursday</string>
+	<string name="friday">Friday</string>
+	<string name="saturday">Saturday</string>
+	<string name="sunday">Sunday</string>
+
+	<string name="reset_schedule">Reset progress?</string>
+	<string name="time_to_action">Sports time is up.</string>
+
+	<string name="height_not_allow">Illegal height，please enter again</string>
+	<string name="weight_not_allow">Illegal body weight，please enter again</string>
+	<string name="last_sync">Last Sync</string>
+	<string name="already_exit_google_fit">Exited GoogleFit</string>
+	<string name="sync">Sync</string>
+	<string name="sync_complete">Completed synchronously</string>
+
+	<string name="feed_back_subject">Your suggestion</string>
+	<string name="feed_back_content">We very much hope to get your suggestion：</string>
+	<string name="select_mail_app">Please select the email app</string>
+	<string name="has_not_google_service">No Google service installed</string>
+</resources>

@@ -1,0 +1,191 @@
+[
+  {
+    "id": 21,
+    "name":"Crouch",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 17,
+    "name":"Push wall push ups",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 82,
+    "name":"Lying side by side-Left",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 70,
+    "name":"Lying side by side-Right",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 48,
+    "name":"Supine bridge hips",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 170,
+    "name":"Overdip",
+    "factor":1.5,
+    "desc": [
+    "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+    "The direction of the knee should be consistent with the direction of the toe"
+  ]
+  },
+  {
+    "id": 3,
+    "name":"Tablet support",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 167,
+    "name":"Standing bicycle roll",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 169,
+    "name":"Rolling claps",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 51,
+    "name":"Prone support leg-lif",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 50,
+    "name":"Prone support leg-Right",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 127,
+    "name":"Supine alternate heel contact",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 49,
+    "name":"Knees knees-Left",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 47,
+    "name":"Knees knees-Right",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 8,
+    "name":"Cycling",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 129,
+    "name":"Stationary adductor muscle stretch",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 168,
+    "name":"Swimming and Superman",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 22,
+    "name":"Side lunge",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 24,
+    "name":"Lunge",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 55,
+    "name":"Deep",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  },
+  {
+    "id": 125,
+    "name":"Supine alternate legs",
+    "factor":1.5,
+    "desc": [
+      "Feet shoulder width, Straight shoulders，Then the body presses down，Until the thighs are parallel to the ground",
+      "The direction of the knee should be consistent with the direction of the toe"
+    ]
+  }
+]

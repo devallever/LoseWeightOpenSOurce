@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scroll_view"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:showDividers="middle|end"
+		android:divider="@drawable/divider"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<include
+			layout="@layout/upload_layout"
+			android:visibility="gone" />
+
+		<include layout="@layout/data_layout" />
+
+		<androidx.recyclerview.widget.RecyclerView
+			android:id="@+id/recycler_view"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:visibility="gone">
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<TextView
+					android:textColor="@color/black_00"
+					android:layout_weight="1"
+					android:padding="10dp"
+					android:text="@string/weight"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content" />
+
+				<ImageView
+					android:padding="5dp"
+					android:id="@+id/add_weight"
+					android:background="?android:selectableItemBackground"
+					android:layout_marginRight="20dp"
+					android:layout_gravity="center"
+					android:src="@drawable/ic_add"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+
+			<com.github.mikephil.charting.charts.LineChart
+				android:layout_marginTop="10dp"
+				android:layout_marginBottom="10dp"
+				android:id="@+id/chart"
+				android:layout_width="match_parent"
+				android:layout_height="200dp"
+				android:visibility="visible" />
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:visibility="gone">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="10dp"
+					android:text="@string/current" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="10dp"
+					android:text="@string/heaviest" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="10dp"
+					android:text="@string/lightest" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="right"
+				android:orientation="vertical"
+				android:visibility="gone">
+
+				<TextView
+					android:id="@+id/tv_current"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="10dp"
+					android:text="0.00kg" />
+
+				<TextView
+					android:id="@+id/heaviest"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="10dp"
+					android:text="0.00kg" />
+
+				<TextView
+					android:id="@+id/lightest"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="10dp"
+					android:text="0.00kg" />
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<TextView
+				android:textColor="@color/black_00"
+				android:layout_weight="1"
+				android:padding="10dp"
+				android:text="@string/bmi"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+
+			<TextView
+				android:id="@+id/tv_edit_bmi"
+				android:padding="10dp"
+				android:textColor="@color/green_16"
+				android:text="@string/edit"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<com.allever.lose.weight.ui.view.widget.BMIView
+			android:id="@+id/id_fg_report_bmi"
+			android:layout_width="match_parent"
+			android:layout_height="250px"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+			android:visibility="visible" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:textColor="@color/black_00"
+					android:layout_weight="1"
+					android:padding="10dp"
+					android:text="@string/height"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content" />
+
+				<TextView
+					android:layout_weight="1"
+					android:padding="10dp"
+					android:text="@string/current"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="right"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/tv_edit_height"
+					android:padding="10dp"
+					android:textColor="@color/green_16"
+					android:text="@string/edit"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+
+				<TextView
+					android:id="@+id/tv_current_height"
+					android:padding="10dp"
+					android:text="0.0CM"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

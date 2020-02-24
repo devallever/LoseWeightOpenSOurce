@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:foreground="?android:attr/selectableItemBackground"
+	android:layout_height="120dp">
+
+	<LinearLayout
+		android:gravity="center_vertical"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<TextView
+			android:id="@+id/tv_time"
+			android:textColor="@android:color/black"
+			android:layout_marginLeft="10dp"
+			android:text="15:46"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<TextView
+			android:id="@+id/id_item_remind_tv_repeat"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="10dp"
+			android:text="@string/repeat"
+			android:textColor="@android:color/black" />
+
+		<TextView
+			android:id="@+id/tv_weekly"
+			android:textSize="@dimen/sp_12"
+			android:layout_marginLeft="10dp"
+			android:text="Sun,Mon"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<Switch
+		android:id="@+id/reminder_switch"
+		android:checked="true"
+		android:layout_margin="20dp"
+		android:layout_gravity="right"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+	<ImageView
+		android:id="@+id/delete"
+		android:layout_marginBottom="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_gravity="right|bottom"
+		android:src="@drawable/ic_delete_48px"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+</androidx.cardview.widget.CardView>

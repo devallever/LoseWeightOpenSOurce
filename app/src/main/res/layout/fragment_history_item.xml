@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:background="?selectableItemBackground"
+	android:orientation="horizontal"
+	android:layout_height="80dp">
+
+	<ImageView
+		android:layout_margin="10dp"
+		android:src="@drawable/ic_workout_full_body"
+		android:layout_marginRight="20dp"
+		android:layout_gravity="left|center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:tint="@color/theme_color" />
+
+	<LinearLayout
+		android:layout_weight="1"
+		android:gravity="center|left"
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent">
+
+		<TextView
+			android:id="@+id/tv_day"
+			android:textColor="@android:color/black"
+			android:text="DAY 1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<TextView
+			android:drawablePadding="5dp"
+			android:drawableLeft="@drawable/ic_workout_time"
+			android:textSize="12sp"
+			android:id="@+id/id_item_exercise_record_tv_duration"
+			android:text="03:51"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_marginRight="10dp"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent">
+
+		<TextView
+			android:textSize="12sp"
+			android:id="@+id/id_item_exercise_record_tv_date"
+			android:text="Mar 2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<TextView
+			android:textSize="12sp"
+			android:id="@+id/id_item_exercise_record_tv_start_time"
+			android:text="10:31AM"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+
+</LinearLayout>

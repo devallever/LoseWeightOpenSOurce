@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<com.google.android.material.appbar.AppBarLayout
+		android:id="@+id/id_about_activity_appbar_layout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<com.google.android.material.appbar.CollapsingToolbarLayout
+			android:id="@+id/id_about_activity_collapsing_toolbar"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+			app:contentScrim="@color/colorPrimary"
+			app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:gravity="center_horizontal">
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/td_pic_exercise_complete" />
+
+				<TextView
+					android:id="@+id/id_fg_action_finish_tv_finish"
+					style="@style/whiteTextStyle"
+					android:layout_marginTop="10dp"
+					android:text="@string/finish_1"
+					android:textSize="20sp"
+					android:textStyle="bold" />
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_marginTop="10dp">
+
+					<TextView
+						android:id="@+id/id_fg_action_finish_tv_train_count"
+						style="@style/action_finish_top_desc_style"
+						android:textStyle="bold"
+						android:textSize="20sp"
+						android:text="135" />
+
+					<TextView
+						android:id="@+id/id_fg_action_finish_tv_cal_value"
+						style="@style/action_finish_top_desc_style"
+						android:autoLink="all"
+						android:textSize="20sp"
+						android:textStyle="bold"
+						android:text="0" />
+
+					<TextView
+						android:id="@+id/id_fg_action_finish_tv_train_duration"
+						style="@style/action_finish_top_desc_style"
+						android:textStyle="bold"
+						android:textSize="20sp"
+						android:text="10:04" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_marginTop="5dp"
+					android:layout_marginBottom="10dp">
+
+					<TextView
+						style="@style/action_finish_top_desc_style"
+						android:text="@string/train" />
+
+					<TextView
+						android:id="@+id/id_fg_action_finish_tv_cal_name"
+						style="@style/action_finish_top_desc_style"
+						android:autoLink="all"
+						android:text="@string/click_here" />
+
+					<TextView
+						style="@style/action_finish_top_desc_style"
+						android:text="@string/action_finish_duration" />
+
+				</LinearLayout>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="15dp">
+
+					<TextView
+						android:id="@+id/id_fg_action_finish_tv_remind"
+						style="@style/whiteTextStyle"
+						android:text="@string/remind"
+						android:textSize="16sp" />
+
+					<TextView
+						android:id="@+id/id_fg_action_finish_tv_share"
+						style="@style/whiteTextStyle"
+						android:text="@string/share"
+						android:layout_alignParentRight="true"
+						android:textSize="16sp" />
+
+					<TextView
+						android:id="@+id/id_fg_action_finish_tv_save"
+						style="@style/whiteTextStyle"
+						android:layout_marginRight="20dp"
+						android:layout_toLeftOf="@id/id_fg_action_finish_tv_share"
+						android:text="@string/save"
+						android:textSize="16sp" />
+
+				</RelativeLayout>
+			</LinearLayout>
+
+			<androidx.appcompat.widget.Toolbar
+				android:id="@+id/id_fg_action_finish_toolbar"
+				android:layout_width="match_parent"
+				android:layout_height="?actionBarSize"
+				app:layout_collapseMode="pin" />
+
+		</com.google.android.material.appbar.CollapsingToolbarLayout>
+
+	</com.google.android.material.appbar.AppBarLayout>
+
+	<androidx.core.widget.NestedScrollView
+		android:id="@+id/id_fg_action_finish_nested_scroll_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+
+			<!-- 体重 -->
+			<LinearLayout
+				style="@style/action_finish_item_container"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/id_fg_action_finish_tv_weight"
+					style="@style/action_finish_item_title_style"
+					android:text="@string/action_finish_weight" />
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:layout_below="@id/id_fg_action_finish_tv_weight">
+
+					<RadioGroup
+						android:id="@+id/id_fg_action_finish_rg_unit_container"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentRight="true"
+						android:layout_alignParentBottom="true"
+						android:orientation="horizontal">
+
+						<RadioButton
+							android:id="@+id/id_fg_action_finish_rb_unit_kg"
+							style="@style/action_finish_rb_unit"
+							android:checked="true"
+							android:text="@string/unit_kg" />
+
+						<RadioButton
+							android:id="@+id/id_fg_action_finish_rb_unit_lb"
+							style="@style/action_finish_rb_unit"
+							android:checked="false"
+							android:text="@string/unit_lb" />
+
+					</RadioGroup>
+
+					<EditText
+						android:id="@+id/id_fg_action_finish_et_weight"
+						android:layout_width="match_parent"
+						android:layout_height="50dp"
+						android:layout_toLeftOf="@id/id_fg_action_finish_rg_unit_container"
+						android:layout_marginRight="15dp"
+						android:hint="0.00kg"
+						android:inputType="number"
+						android:layout_alignParentBottom="true" />
+				</RelativeLayout>
+			</LinearLayout>
+
+			<!-- 体重 -->
+			<LinearLayout
+				style="@style/action_finish_item_container"
+				android:orientation="vertical">
+
+				<RelativeLayout
+					android:id="@+id/id_fg_action_finish_rl_bmi"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<TextView
+						style="@style/action_finish_item_title_style"
+						android:text="@string/bmi" />
+					<!--<TextView-->
+					<!--android:id="@+id/id_fg_action_finish_tv_hide"-->
+					<!--android:layout_width="wrap_content"-->
+					<!--android:layout_height="wrap_content"-->
+					<!--android:text="@string/hide"-->
+					<!--android:layout_alignParentRight="true"-->
+					<!--android:textColor="@color/blue_500"-->
+					<!--android:layout_centerVertical="true"-->
+					<!--android:visibility="invisible"/>-->
+
+					<TextView
+						android:id="@+id/id_fg_action_finish_tv_edit_weight"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/edit"
+						android:textColor="@color/blue_500"
+						android:layout_marginRight="10dp"
+						android:layout_centerVertical="true"
+						android:layout_alignParentRight="true"
+						android:visibility="visible" />
+				</RelativeLayout>
+
+				<!--<TextView-->
+				<!--android:id="@+id/id_fg_action_finish_tv_input_w_h"-->
+				<!--android:layout_width="match_parent"-->
+				<!--android:layout_height="100dp"-->
+				<!--android:gravity="center"-->
+				<!--android:textColor="@color/blue_500"-->
+				<!--android:textStyle="italic"-->
+				<!--android:layout_below="@id/id_fg_action_finish_rl_bmi"-->
+				<!--android:text="@string/click_input_height"-->
+				<!--android:visibility="visible"/>-->
+				<com.allever.lose.weight.ui.view.widget.BMIView
+					android:id="@+id/id_fg_action_finish_bmi_view"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+					android:layout_marginBottom="10dp"
+					android:layout_below="@id/id_fg_action_finish_rl_bmi"
+					android:visibility="visible" />
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="0.5dp"
+				android:background="@color/gray" />
+
+			<!-- 同步 -->
+			<RelativeLayout
+				style="@style/action_finish_item_container"
+				android:layout_height="80dp"
+				android:visibility="gone">
+
+				<ImageView
+					android:id="@+id/id_fg_action_finish_iv_google_fit"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_margin="10dp"
+					android:src="@drawable/rp_icon_google_fit" />
+
+				<TextView
+					style="@style/blackTextStyle"
+					android:layout_centerVertical="true"
+					android:layout_toRightOf="@id/id_fg_action_finish_iv_google_fit"
+					android:text="@string/sync_google_fit"
+					android:textSize="18sp" />
+
+				<androidx.appcompat.widget.SwitchCompat
+					android:id="@+id/id_fg_action_finish_switch_sync_google"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:layout_margin="10dp" />
+			</RelativeLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="10dp"
+				android:background="@color/gray_100" />
+
+			<!-- 感觉 -->
+			<LinearLayout
+				style="@style/action_finish_item_container"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:visibility="gone">
+
+				<TextView
+					android:id="@+id/id_fg_action_finish_tv_feel"
+					style="@style/action_finish_item_title_style"
+					android:text="我感觉" />
+
+				<RelativeLayout
+					android:id="@+id/id_fg_action_finish_feel_container"
+					style="@style/action_finish_item_container"
+					android:layout_below="@id/id_fg_action_finish_tv_feel">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/simple" />
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/tired"
+						android:layout_alignParentRight="true" />
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:id="@+id/id_fg_action_finish_rl_rb_container"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/id_fg_action_finish_feel_container">
+
+					<RadioGroup
+						android:id="@+id/id_fg_action_finish_rg_feel"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_centerHorizontal="true"
+						android:orientation="horizontal">
+
+						<RadioButton
+							android:id="@+id/id_fg_action_finish_rb_level_1"
+							style="@style/action_finish_rb_feel" />
+
+						<RadioButton
+							android:id="@+id/id_fg_action_finish_rb_level_2"
+							style="@style/action_finish_rb_feel" />
+
+						<RadioButton
+							android:id="@+id/id_fg_action_finish_rb_level_3"
+							style="@style/action_finish_rb_feel" />
+
+						<RadioButton
+							android:id="@+id/id_fg_action_finish_rb_level_4"
+							style="@style/action_finish_rb_feel" />
+
+						<RadioButton
+							android:id="@+id/id_fg_action_finish_rb_level_5"
+							style="@style/action_finish_rb_feel" />
+
+					</RadioGroup>
+				</RelativeLayout>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					android:text="@string/feedback"
+					android:layout_gravity="end"
+					android:layout_marginTop="10dp"
+					android:textColor="@color/blue_500"
+					android:layout_below="@id/id_fg_action_finish_rl_rb_container"
+					android:padding="10dp" />
+			</LinearLayout>
+
+
+			<!--<Button-->
+			<!--android:id="@+id/id_fg_action_finish_btn_save"-->
+			<!--android:layout_width="match_parent"-->
+			<!--android:layout_height="50dp"-->
+			<!--android:text="@string/save"-->
+			<!--android:textSize="20sp"-->
+			<!--android:textColor="@color/white"-->
+			<!--android:background="@color/blue_500"-->
+			<!--android:layout_margin="20dp"/>-->
+		</LinearLayout>
+
+	</androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	app:cardElevation="0dp"
+	android:foreground="?android:attr/selectableItemBackground"
+	android:clickable="true"
+	android:layout_height="160dp">
+	<!--<TextView-->
+	<!--android:textSize="18sp"-->
+	<!--android:textColor="@color/white"-->
+	<!--android:text="@string/morning_train"-->
+	<!--android:layout_width="wrap_content"-->
+	<!--android:layout_height="wrap_content" />-->
+	<ImageView
+		android:id="@+id/id_item_routine_iv_type_bg"
+		android:scaleType="centerCrop"
+		android:src="@drawable/cover_morning"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"></ImageView>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="10dp">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<ImageView
+				android:id="@+id/id_item_routine_iv_type_small"
+				android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:src="@drawable/ic_morning" />
+
+			<TextView
+				android:id="@+id/id_item_routine_tv_title"
+				style="@style/whiteTextStyle"
+				android:textSize="20sp"
+				android:text="@string/morning_stretch"
+				android:layout_gravity="center"
+				android:layout_marginLeft="10dp"
+				android:textStyle="bold" />
+
+
+		</LinearLayout>
+
+		<TextView
+			android:id="@+id/id_item_routine_tv_kcal"
+			style="@style/routine_tv_item_style"
+			android:text="@string/routine_kcal"
+			android:layout_alignParentBottom="true" />
+
+		<TextView
+			android:id="@+id/id_item_routine_tv_duration"
+			style="@style/routine_tv_item_style"
+			android:text="@string/routine_duration"
+			android:layout_above="@id/id_item_routine_tv_kcal" />
+
+		<TextView
+			android:id="@+id/id_item_routine_tv_exercise"
+			style="@style/routine_tv_item_style"
+			android:text="@string/routine_exercise"
+			android:layout_above="@id/id_item_routine_tv_duration" />
+
+		<ImageView
+			android:layout_width="20dp"
+			android:layout_height="20dp"
+			android:src="@drawable/ic_rontines_start"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"
+			android:visibility="gone" />
+
+	</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="bottom|right"
+	android:layout_marginBottom="10dp">
+
+	<TextView
+		android:id="@+id/cancel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingRight="20dp"
+		android:paddingLeft="20dp"
+		android:paddingBottom="10dp"
+		android:paddingTop="10dp"
+		android:text="@string/cancel"
+		android:textColor="@color/green_16" />
+
+	<TextView
+		android:id="@+id/save"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingRight="20dp"
+		android:paddingLeft="20dp"
+		android:paddingBottom="10dp"
+		android:paddingTop="10dp"
+		android:text="@string/save"
+		android:textColor="@color/green_16" />
+</LinearLayout>

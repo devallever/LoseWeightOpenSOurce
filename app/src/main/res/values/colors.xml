@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="theme_color">#f06292</color>
+	<color name="theme_color_weak">#f48fb1</color>
+
+	<color name="colorPrimary">@color/theme_color</color>
+	<color name="colorPrimaryDark">@color/theme_color</color>
+	<color name="colorAccent">#e91e63</color>
+	<color name="tab_select_color">#ffffff</color>
+	<color name="tab_unselect_color">#8cffffff</color>
+	<color name="white_80">#ffffff</color>
+	<color name="base_background">#e8edf0</color>
+	<color name="gray_d3">#ffd3d3d3</color>
+	<color name="black_33">#ff333333</color>
+	<color name="progress_backound">#fce4ec</color>
+	<color name="progress_text_color">@color/theme_color_weak</color>
+	<color name="card_select_background">@color/theme_color</color>
+	<color name="green_16">@color/colorAccent</color>
+	<color name="grey_b3">#b3b3b3</color>
+
+	<color name="default_green">@color/theme_color</color>
+	<color name="white">#ffffff</color>
+	<color name="black">#000</color>
+	<color name="gray">#ccc</color>
+	<color name="gray_blue">#263238</color>
+	<color name="black_00">#000000</color>
+	<color name="blue_500">#1e88e5</color>
+	<color name="gray_100">#f5f5f5</color>
+	<color name="black_74">#747474</color>
+	<color name="grey_e8">#e8edf0</color>
+	<color name="grey_8c">#8c8c8c</color>
+	<color name="alphaGray">#55cccccc</color>
+	<color name="alpha_blue_500">#551e88e5</color>
+
+	<color name="teal_200">#f48fb1</color>
+	<color name="gray_500">#9e9e9e</color>
+
+	<color name="green_200">#f48fb1</color>
+	<color name="green_100">#f8bbd0</color>
+
+	<color name="orange_500">#ff9800</color>
+</resources>

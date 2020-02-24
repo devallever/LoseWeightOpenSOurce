@@ -1,0 +1,343 @@
+[
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/adductor_stretch_in_standing\/1.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/adductor_stretch_in_standing\/2.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/adductor_stretch_in_standing\/3.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/adductor_stretch_in_standing\/4.png",
+        "speed": 1000
+      }
+    ],
+    "id": 129
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/plank\/1.png",
+        "speed": 1000
+      }
+    ],
+    "id": 3
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/side_leg_lift_right\/1.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/side_leg_lift_right\/2.png",
+        "speed": 1000
+      }
+    ],
+    "id": 70
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/standing_bicycle_crunch\/1.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/standing_bicycle_crunch\/2.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/standing_bicycle_crunch\/3.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/standing_bicycle_crunch\/4.png",
+        "speed": 1000
+      }
+    ],
+    "id": 167
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/bicycle_crunch\/1.png",
+        "speed": 600
+      },
+      {
+        "uri": "td_action_img\/bicycle_crunch\/2.png",
+        "speed": 600
+      },
+      {
+        "uri": "td_action_img\/bicycle_crunch\/3.png",
+        "speed": 600
+      },
+      {
+        "uri": "td_action_img\/bicycle_crunch\/4.png",
+        "speed": 600
+      }
+    ],
+    "id": 8
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/swimmer_and_superman\/1.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/swimmer_and_superman\/2.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/swimmer_and_superman\/3.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/swimmer_and_superman\/4.png",
+        "speed": 1000
+      }
+    ],
+    "id": 168
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/clapping_crunch\/1.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/clapping_crunch\/2.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/clapping_crunch\/3.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/clapping_crunch\/4.png",
+        "speed": 1000
+      }
+    ],
+    "id": 169
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/claps_over_the_head\/1.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/claps_over_the_head\/2.png",
+        "speed": 1000
+      }
+    ],
+    "id": 170
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/donkey_kick_right\/1.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/donkey_kick_right\/2.png",
+        "speed": 1000
+      }
+    ],
+    "id": 47
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/butt_bridge\/1.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/butt_bridge\/2.png",
+        "speed": 1000
+      }
+    ],
+    "id": 48
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/wall_push_up\/1.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/wall_push_up\/2.png",
+        "speed": 1000
+      }
+    ],
+    "id": 17
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/donkey_kick_left\/1.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/donkey_kick_left\/2.png",
+        "speed": 1000
+      }
+    ],
+    "id": 49
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/side_leg_lift_left\/1.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/side_leg_lift_left\/2.png",
+        "speed": 1000
+      }
+    ],
+    "id": 82
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/fire_hydrant_right\/1.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/fire_hydrant_right\/2.png",
+        "speed": 1000
+      }
+    ],
+    "id": 50
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/fire_hydrant_left\/1.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/fire_hydrant_left\/2.png",
+        "speed": 1000
+      }
+    ],
+    "id": 51
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/squat\/1.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/squat\/2.png",
+        "speed": 1000
+      }
+    ],
+    "id": 21
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/side_lunge\/1.png",
+        "speed": 500
+      },
+      {
+        "uri": "td_action_img\/side_lunge\/2.png",
+        "speed": 500
+      },
+      {
+        "uri": "td_action_img\/side_lunge\/3.png",
+        "speed": 500
+      },
+      {
+        "uri": "td_action_img\/side_lunge\/4.png",
+        "speed": 500
+      }
+    ],
+    "id": 22
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/pile_squat\/1.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/pile_squat\/2.png",
+        "speed": 1000
+      }
+    ],
+    "id": 55
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/lunge\/1.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/lunge\/2.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/lunge\/3.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/lunge\/4.png",
+        "speed": 1000
+      }
+    ],
+    "id": 24
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/flutter_kicks\/1.png",
+        "speed": 500
+      },
+      {
+        "uri": "td_action_img\/flutter_kicks\/2.png",
+        "speed": 500
+      },
+      {
+        "uri": "td_action_img\/flutter_kicks\/3.png",
+        "speed": 500
+      },
+      {
+        "uri": "td_action_img\/flutter_kicks\/4.png",
+        "speed": 500
+      }
+    ],
+    "id": 125
+  },
+  {
+    "uris": [
+      {
+        "uri": "td_action_img\/heel_touch\/1.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/heel_touch\/2.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/heel_touch\/3.png",
+        "speed": 1000
+      },
+      {
+        "uri": "td_action_img\/heel_touch\/4.png",
+        "speed": 1000
+      }
+    ],
+    "id": 127
+  }
+]

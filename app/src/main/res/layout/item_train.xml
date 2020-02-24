@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/card_view"
+	app:cardElevation="0dp"
+	android:foreground="?android:attr/selectableItemBackground"
+	android:layout_height="80dp">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_gravity="end|center">
+
+		<TextView
+			android:id="@+id/tv_day"
+			android:textColor="@android:color/black"
+			android:layout_marginLeft="20dp"
+			android:layout_centerVertical="true"
+			android:text="DAY 1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<RelativeLayout
+			android:id="@+id/id_item_train_rl_progress_bar_container"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_marginRight="20dp"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+			android:visibility="visible">
+
+			<com.dinuscxj.progressbar.CircleProgressBar
+				android:id="@+id/id_item_train_progress_bar_train"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				app:progress_background_color="@color/green_100"
+				app:progress_start_color="@color/colorPrimary"
+				app:progress_end_color="@color/colorPrimary"
+				app:progress_stroke_width="3dp"
+				app:style="solid_line"
+				app:draw_progress_text="false" />
+
+			<TextView
+				android:id="@+id/id_item_train_tv_progress"
+				style="@style/greenTextStyle"
+				android:textSize="10sp"
+				android:layout_centerInParent="true"
+				android:text="2%" />
+
+		</RelativeLayout>
+
+		<ImageView
+			android:id="@+id/id_item_train_iv_rest"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:src="@drawable/ic_rest_day_future"
+			android:layout_marginRight="20dp"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+			android:visibility="invisible"
+			android:tint="@color/theme_color" />
+
+
+		<ImageView
+			android:id="@+id/id_item_train_iv_finish"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:src="@drawable/ic_day_completed"
+			android:layout_marginRight="20dp"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+			android:visibility="invisible"
+			android:padding="2dp"
+			android:tint="@color/green_100" />
+
+
+	</RelativeLayout>
+</androidx.cardview.widget.CardView>

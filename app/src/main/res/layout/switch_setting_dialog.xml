@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#ffffff"
+	android:orientation="vertical">
+
+
+	<LinearLayout style="@style/SwitchDialogItemContainerStyle">
+
+		<TextView
+			style="@style/SwitchDialogItemTvLabelStyle"
+			android:text="飞行模式" />
+
+		<RadioGroup style="@style/SwitchDialogItemRadioGroupStyle">
+
+			<RadioButton
+				android:id="@+id/id_switch_rb_air_on"
+				android:text="开"
+				style="@style/SwitchDialogItemRadioButtonStyle" />
+
+			<RadioButton
+				android:id="@+id/id_switch_rb_air_off"
+				android:text="关"
+				style="@style/SwitchDialogItemRadioButtonStyle" />
+		</RadioGroup>
+	</LinearLayout>
+
+	<LinearLayout style="@style/SwitchDialogItemContainerStyle">
+
+		<TextView
+			style="@style/SwitchDialogItemTvLabelStyle"
+			android:text="WIFI" />
+
+		<RadioGroup style="@style/SwitchDialogItemRadioGroupStyle">
+
+			<RadioButton
+				android:id="@+id/id_switch_rb_wifi_on"
+				android:text="开"
+				style="@style/SwitchDialogItemRadioButtonStyle" />
+
+			<RadioButton
+				android:id="@+id/id_switch_rb_wifi_off"
+				android:text="关"
+				style="@style/SwitchDialogItemRadioButtonStyle" />
+		</RadioGroup>
+	</LinearLayout>
+
+	<LinearLayout style="@style/SwitchDialogItemContainerStyle">
+
+		<TextView
+			style="@style/SwitchDialogItemTvLabelStyle"
+			android:text="蓝牙" />
+
+		<RadioGroup style="@style/SwitchDialogItemRadioGroupStyle">
+
+			<RadioButton
+				android:id="@+id/id_switch_rb_bluetooth_on"
+				android:text="开"
+				style="@style/SwitchDialogItemRadioButtonStyle" />
+
+			<RadioButton
+				android:id="@+id/id_switch_rb_bluetooth_off"
+				android:text="关"
+				style="@style/SwitchDialogItemRadioButtonStyle" />
+		</RadioGroup>
+	</LinearLayout>
+
+</LinearLayout>

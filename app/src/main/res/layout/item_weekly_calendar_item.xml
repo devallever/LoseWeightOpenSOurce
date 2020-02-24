@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_horizontal"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/text_week_abbr"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="S"
+		android:textColor="@color/gray_d3"
+		android:textSize="14.0sp" />
+
+	<ImageView
+		android:id="@+id/image_week_day"
+		android:layout_width="30dp"
+		android:layout_height="30dp"
+		android:layout_marginBottom="5dp"
+		android:layout_marginTop="10dp"
+		android:iconTint="@color/theme_color"
+		android:src="@drawable/ic_calendar_not_completed" />
+
+	<TextView
+		android:id="@+id/text_week_date"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="29"
+		android:textColor="@color/black_33"
+		android:textSize="12.0sp" />
+</LinearLayout>

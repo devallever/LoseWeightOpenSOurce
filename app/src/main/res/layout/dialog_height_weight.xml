@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:padding="10dp">
+
+	<TextView
+		android:id="@+id/id_dialog_h_w_tv_weight"
+		style="@style/blackTextStyle"
+		android:textSize="20sp"
+		android:text="@string/weight" />
+
+	<RelativeLayout
+		android:id="@+id/id_dialog_h_w_rl_weight_container"
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:layout_below="@id/id_dialog_h_w_tv_weight">
+
+		<RadioGroup
+			android:id="@+id/id_dialog_h_w_rg_weight_unit_container"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"
+			android:orientation="horizontal">
+
+			<RadioButton
+				android:id="@+id/id_dialog_h_w_rb_unit_kg"
+				style="@style/action_finish_rb_unit"
+				android:checked="true"
+				android:text="@string/unit_kg" />
+
+			<RadioButton
+				android:id="@+id/id_dialog_h_w_rb_unit_lb"
+				style="@style/action_finish_rb_unit"
+				android:checked="false"
+				android:text="@string/unit_lb" />
+
+		</RadioGroup>
+
+		<EditText
+			android:id="@+id/id_dialog_h_w_et_weight"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:layout_toLeftOf="@id/id_dialog_h_w_rg_weight_unit_container"
+			android:layout_marginRight="15dp"
+			android:hint="0.00 kg"
+			android:inputType="number"
+			android:layout_alignParentBottom="true" />
+	</RelativeLayout>
+
+
+	<TextView
+		android:id="@+id/id_dialog_h_w_tv_height"
+		style="@style/blackTextStyle"
+		android:layout_marginTop="10dp"
+		android:layout_below="@id/id_dialog_h_w_rl_weight_container"
+		android:textSize="20sp"
+		android:text="@string/height" />
+
+	<RelativeLayout
+		android:id="@+id/id_dialog_h_w_rl_height_container"
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:layout_below="@id/id_dialog_h_w_tv_height">
+
+		<RadioGroup
+			android:id="@+id/id_dialog_h_w_rg_height_unit_container"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"
+			android:orientation="horizontal">
+
+			<RadioButton
+				android:id="@+id/id_dialog_h_w_rb_unit_cm"
+				style="@style/action_finish_rb_unit"
+				android:checked="true"
+				android:text="@string/unit_cm" />
+
+			<RadioButton
+				android:id="@+id/id_dialog_h_w_rb_unit_in"
+				style="@style/action_finish_rb_unit"
+				android:checked="false"
+				android:text="@string/unit_in" />
+
+		</RadioGroup>
+
+		<EditText
+			android:id="@+id/id_dialog_h_w_et_height_cm"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:layout_toLeftOf="@id/id_dialog_h_w_rg_height_unit_container"
+			android:layout_marginRight="15dp"
+			android:hint="0.00 cm"
+			android:inputType="number"
+			android:layout_alignParentBottom="true"
+			android:visibility="visible" />
+
+		<LinearLayout
+			android:id="@+id/id_dialog_h_w_ll_et_in_container"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="15dp"
+			android:layout_toLeftOf="@id/id_dialog_h_w_rg_height_unit_container"
+			android:orientation="horizontal"
+			android:layout_alignParentBottom="true"
+			android:visibility="invisible">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="ft: " />
+
+			<EditText
+				android:id="@+id/id_dialog_h_w_et_height_in_ft"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="10dp"
+				android:layout_weight="1"
+				android:hint="0.00" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp"
+				android:text="in: " />
+
+			<EditText
+				android:id="@+id/id_dialog_h_w_et_height_in_in"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:hint="0.00" />
+
+		</LinearLayout>
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/id_dialog_h_w_rl_height_container"
+		android:layout_marginTop="20dp">
+
+		<TextView
+			android:id="@+id/id_dialog_h_w_tv_save"
+			style="@style/dialog_h_w_tv_option_style"
+			android:text="@string/save"
+			android:layout_alignParentRight="true" />
+
+		<TextView
+			android:id="@+id/id_dialog_h_w_tv_cancel"
+			style="@style/dialog_h_w_tv_option_style"
+			android:text="@string/cancel"
+			android:layout_toLeftOf="@id/id_dialog_h_w_tv_save" />
+	</RelativeLayout>
+
+</RelativeLayout>

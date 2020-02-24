@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:paddingLeft="10dp"
+	android:paddingRight="10dp">
+
+	<TextView
+		android:id="@+id/id_item_finish_reminder_tv_time"
+		style="@style/blackTextStyle"
+		android:text="8:00 AM"
+		android:textSize="16sp"
+		android:layout_marginTop="20dp" />
+
+	<ImageView
+		android:id="@+id/id_item_finish_reminder_iv_select"
+		android:layout_width="20dp"
+		android:layout_height="20dp"
+		android:layout_marginTop="20dp"
+		android:src="@drawable/rp_feel_level_unchecked"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="10dp" />
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="0.5dp"
+		android:background="@color/gray"
+		android:layout_marginTop="15dp"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:layout_below="@id/id_item_finish_reminder_iv_select" />
+
+
+</RelativeLayout>

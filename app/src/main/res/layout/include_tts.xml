@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<TextView
+		android:paddingLeft="20dp"
+		android:textColor="@color/green_16"
+		android:text="@string/voice_options_tts"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+	<TextView
+		android:id="@+id/test_voice"
+		android:background="?android:selectableItemBackground"
+		android:paddingLeft="20dp"
+		android:drawablePadding="30dp"
+		android:gravity="center_vertical"
+		android:drawableLeft="@drawable/icon_10"
+		android:textColor="@color/black_00"
+		android:text="@string/test_voice"
+		android:layout_width="match_parent"
+		android:layout_height="50dp" />
+
+	<TextView
+		android:id="@+id/select_engine"
+		android:background="?android:selectableItemBackground"
+		android:paddingLeft="20dp"
+		android:drawablePadding="30dp"
+		android:gravity="center_vertical"
+		android:drawableLeft="@drawable/icon_06"
+		android:textColor="@color/black_00"
+		android:text="@string/select_tts_engine"
+		android:layout_width="match_parent"
+		android:layout_height="50dp" />
+
+	<TextView
+		android:id="@+id/id_fg_setting_tv_download_tts"
+		android:background="?android:selectableItemBackground"
+		android:paddingLeft="20dp"
+		android:drawablePadding="30dp"
+		android:gravity="center_vertical"
+		android:drawableLeft="@drawable/icon_09"
+		android:textColor="@color/black_00"
+		android:text="@string/download_tts_engine"
+		android:layout_width="match_parent"
+		android:layout_height="50dp" />
+
+	<TextView
+		android:background="?android:selectableItemBackground"
+		android:paddingLeft="20dp"
+		android:drawablePadding="30dp"
+		android:gravity="center_vertical"
+		android:drawableLeft="@drawable/icon_13"
+		android:textColor="@color/black_00"
+		android:text="@string/download_more_tts_language_data"
+		android:layout_width="match_parent"
+		android:layout_height="50dp" />
+
+	<TextView
+		android:id="@+id/setting"
+		android:paddingLeft="20dp"
+		android:background="?android:selectableItemBackground"
+		android:drawablePadding="30dp"
+		android:gravity="center_vertical"
+		android:drawableLeft="@drawable/icon_14"
+		android:textColor="@color/black_00"
+		android:text="@string/device_tts_setting"
+		android:layout_width="match_parent"
+		android:layout_height="50dp" />
+
+</LinearLayout>

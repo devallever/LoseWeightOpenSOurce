@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/gray_blue">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="5dp"
+			android:background="@color/gray_d3">
+
+			<ProgressBar
+				android:id="@+id/id_fg_action_pause_progress_bar"
+				style="@style/ActionProgressStyle"
+				android:layout_width="match_parent"
+				android:layout_height="5dp"
+				android:max="7"
+				android:progress="1" />
+		</FrameLayout>
+
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="250dp"
+			android:background="@color/white">
+
+			<ImageView
+				android:id="@+id/id_fg_action_pause_iv_guide"
+				android:layout_width="match_parent"
+				android:layout_height="200dp"
+				android:layout_alignParentBottom="true"
+				android:src="@drawable/lunge_1" />
+
+			<ImageView
+				android:id="@+id/id_fg_action_pause_iv_close"
+				android:layout_width="60dp"
+				android:layout_height="60dp"
+				android:padding="20dp"
+				android:src="@drawable/ic_close" />
+
+			<TextView
+				android:id="@+id/id_action_pause_tv_left_time"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:layout_margin="10dp"
+				android:text="11:00"
+				android:textColor="@color/gray"
+				android:textSize="30sp"
+				android:textStyle="bold" />
+
+		</RelativeLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:padding="20dp">
+
+			<TextView
+				android:id="@+id/id_fg_action_pause_tv_name"
+				style="@style/whiteTextStyle"
+				android:text="@string/action_name"
+				android:textSize="35sp"
+				android:textStyle="bold" />
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:orientation="horizontal">
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/td_ic_video" />
+
+				<TextView
+					android:id="@+id/id_fg_action_pause_tv_video"
+					style="@style/whiteTextStyle"
+					android:layout_gravity="center"
+					android:layout_marginLeft="10dp"
+					android:autoLink="all"
+					android:text="@string/video"
+					android:textColor="@color/green_16" />
+			</LinearLayout>
+
+			<TextView
+				android:id="@+id/id_fg_action_pause_tv_action_desc"
+				style="@style/whiteTextStyle"
+				android:layout_marginTop="10dp"
+				android:text="@string/action_desc_1"
+				android:textSize="18sp" />
+		</LinearLayout>
+
+	</LinearLayout>
+</ScrollView>

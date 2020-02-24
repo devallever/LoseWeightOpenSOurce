@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="80dp"
+	android:orientation="horizontal">
+
+	<LinearLayout
+		android:layout_weight="1"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent">
+
+		<TextView
+			android:id="@+id/tv_workout"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="12"
+			android:textColor="@color/green_16"
+			android:textSize="16sp" />
+
+		<TextView
+			android:layout_marginTop="5dp"
+			android:textColor="@color/grey_b3"
+			android:textSize="14sp"
+			android:text="@string/workouts"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:gravity="center"
+		android:layout_weight="1"
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent">
+
+		<TextView
+			android:id="@+id/tv_kcal"
+			android:textSize="16sp"
+			android:textColor="@color/green_16"
+			android:text="12"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<TextView
+
+			android:layout_marginTop="5dp"
+			android:textColor="@color/grey_b3"
+			android:textSize="14sp"
+			android:text="@string/kcal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:gravity="center"
+		android:layout_weight="1"
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent">
+
+		<TextView
+			android:id="@+id/tv_duration"
+			android:textSize="16sp"
+			android:textColor="@color/green_16"
+			android:text="12"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<TextView
+			android:layout_marginTop="5dp"
+			android:textColor="@color/grey_b3"
+			android:textSize="14sp"
+			android:text="@string/duration"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+</LinearLayout>

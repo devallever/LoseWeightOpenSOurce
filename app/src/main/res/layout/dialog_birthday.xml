@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:padding="10dp">
+
+	<LinearLayout
+		android:id="@+id/id_dialog_birthday_wv_container"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="20dp">
+
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_margin="5dp">
+
+			<com.allever.lose.weight.ui.view.widget.WheelView
+				android:id="@+id/id_dialog_birthday_wv_year"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_margin="5dp">
+
+			<com.allever.lose.weight.ui.view.widget.WheelView
+				android:id="@+id/id_dialog_birthday_wv_month"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_margin="5dp">
+
+			<com.allever.lose.weight.ui.view.widget.WheelView
+				android:id="@+id/id_dialog_birthday_wv_day"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" />
+
+		</LinearLayout>
+
+
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/id_dialog_birthday_tv_ok"
+		style="@style/greenTextStyle"
+		android:text="@string/ok"
+		android:padding="10dp"
+		android:layout_below="@id/id_dialog_birthday_wv_container"
+		android:layout_alignParentRight="true" />
+
+	<TextView
+		android:id="@+id/id_dialog_birthday_tv_cancel"
+		style="@style/greenTextStyle"
+		android:text="@string/cancel"
+		android:padding="10dp"
+		android:layout_below="@id/id_dialog_birthday_wv_container"
+		android:layout_toLeftOf="@id/id_dialog_birthday_tv_ok" />
+
+
+</RelativeLayout>

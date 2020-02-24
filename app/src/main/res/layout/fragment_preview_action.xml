@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<include
+		android:id="@+id/id_preview_action_toolbar"
+		layout="@layout/toolbar" />
+
+	<androidx.recyclerview.widget.RecyclerView
+		android:id="@+id/id_preview_action_rv"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@id/id_preview_action_toolbar"
+		android:visibility="visible" />
+
+	<Button
+		android:id="@+id/id_preview_action_btn_start"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="20dp"
+		android:layout_alignParentBottom="true"
+		android:background="@color/blue_500"
+		android:textColor="@color/white"
+		android:text="@string/start"
+		android:visibility="visible" />
+
+	<LinearLayout
+		android:id="@+id/id_preview_action_ll_rest_container"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_below="@id/id_preview_action_toolbar"
+		android:layout_marginTop="50dp"
+		android:layout_centerHorizontal="true"
+		android:gravity="center"
+		android:visibility="invisible">
+
+		<ImageView
+			android:layout_width="150dp"
+			android:layout_height="150dp"
+			android:src="@drawable/ic_rest" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/rest"
+			android:layout_marginTop="20dp" />
+
+	</LinearLayout>
+
+	<Button
+		android:id="@+id/id_preview_action_btn_end"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="20dp"
+		android:layout_alignParentBottom="true"
+		android:background="@color/blue_500"
+		android:textColor="@color/white"
+		android:text="@string/end"
+		android:visibility="invisible" />
+
+
+</RelativeLayout>
