@@ -8,5 +8,5 @@ include ':recommend'
 project(':recommend').projectDir = new File(settingsDir, '../AndroidDependencyLib/recommend')
 include ':httpsglide'
 project(':httpsglide').projectDir = new File(settingsDir, '../AndroidDependencyLib/httpsglide')
-
-
+include ':widget'
+project(':widget').projectDir = new File(settingsDir, '../AndroidUIKit/widget')
